@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDateWebAPI", "GetDateWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingMethodsWebApi", "RoutingMethodsWebApi\RoutingMethodsWebApi.csproj", "{955C9737-6984-46FF-87D7-628AB192D416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentNegotiation", "ContentNegotiation\ContentNegotiation.csproj", "{0769B13F-74A8-47D4-8545-B5FA3B74A017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitsWebAPI", "FruitsWebAPI\FruitsWebAPI.csproj", "{5B28E442-67DE-4F53-85A9-52063FA82EC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{955C9737-6984-46FF-87D7-628AB192D416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{955C9737-6984-46FF-87D7-628AB192D416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{955C9737-6984-46FF-87D7-628AB192D416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0769B13F-74A8-47D4-8545-B5FA3B74A017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0769B13F-74A8-47D4-8545-B5FA3B74A017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0769B13F-74A8-47D4-8545-B5FA3B74A017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0769B13F-74A8-47D4-8545-B5FA3B74A017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B28E442-67DE-4F53-85A9-52063FA82EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B28E442-67DE-4F53-85A9-52063FA82EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B28E442-67DE-4F53-85A9-52063FA82EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B28E442-67DE-4F53-85A9-52063FA82EC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
