@@ -27,19 +27,19 @@ namespace FruitsWebAPI.Controllers
 
 
         //GET api/values/5
-#region Такой запрос возвращает ошибку сервера, если элемента с нашим id не существует
+        #region Такой запрос возвращает ошибку сервера, если элемента с нашим id не существует
         //public string Get(int id)
         //{
         //    return _fruits[id];
         //}
-#endregion
+        #endregion
 
 
 
 
         public HttpResponseMessage Get(int id)
         {
-            if(id < _fruits.Length)
+            if (id < _fruits.Length)
             {
                 return Request.CreateResponse(HttpStatusCode.OK, _fruits[id]);
             }

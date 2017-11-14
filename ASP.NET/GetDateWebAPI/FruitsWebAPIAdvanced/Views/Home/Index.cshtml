@@ -1,0 +1,71 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style type="text/css">
+        #namesContainer {
+            width: 300px;
+            float: left;
+        }
+
+        #formContainer {
+            float: left;
+            margin-top: 15px;
+        }
+
+            #formContainer label {
+                width: 200px;
+                float: left;
+            }
+
+            #formContainer div {
+                margin: 0px 0px 20px 0px;
+            }
+
+        #linkContainer {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    @*Все элементы полученные со стороны сервера.*@
+    <div id="namesContainer">
+        <ol id="names"></ol>
+    </div>
+
+    @*Форма для отправки запросов на сервер*@
+    <div id="formContainer">
+        <div>
+            <label>Имя нового элемента</label>
+            <input type="text" id="newName" />
+            <button id="addNewBtn">Добавить имя</button>
+        </div>
+        <div>
+            <label>Номер элемента</label><input type="text" id="numberOfElement" /><br />
+            <label>Новое имя</label><input type="text" id="changedName" />
+            <button id="changeBtn">Изменить</button>
+        </div>
+        <div>
+            <label>Номер элемента для удаления</label>
+            <input type="text" id="numberToDelete" />
+            <button id="deleteBtn">Удалить</button>
+        </div>
+
+        @*Ссылка на последний добавленный элемент*@
+        <div id="linkContainer">
+            <div>Ссылка на последний элемент (значение заголовка 'Location') :</div>
+            <div id="location"></div>
+        </div>
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/CustomScripts/nameUpdate.js"></script>
+
+</body>
+</html>
